@@ -1,0 +1,82 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.profileScreen_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* lblFullName */
+.profileScreen_lblFullName {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 26px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* lblTitle */
+.profileScreen_lblTitle {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* lblDistrict */
+.profileScreen_lblDistrict {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 18px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* lblArea */
+.profileScreen_lblArea {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* lnkPhone */
+.profileScreen_lnkPhone {
+	margin: 4px 0px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.profileScreen_lnkPhone_link_wrapper > .profileScreen_lnkPhone,
+.profileScreen_lnkPhone_link_wrapper > .profileScreen_lnkPhone:hover,
+.profileScreen_lnkPhone_link_wrapper > .profileScreen_lnkPhone:active,
+.profileScreen_lnkPhone_link_wrapper > .profileScreen_lnkPhone:visited {
+	text-decoration: underline; font-weight: normal; color: #2489ce; text-align: center; font-family: Helvetica; font-size: 16px;
+}
+/* lnkEmail */
+.profileScreen_lnkEmail {
+	margin: 4px 0px 4px 0px;
+	display: block;
+	vertical-align: middle;
+	padding: 2px;
+	cursor: pointer;
+}
+.profileScreen_lnkEmail_link_wrapper > .profileScreen_lnkEmail,
+.profileScreen_lnkEmail_link_wrapper > .profileScreen_lnkEmail:hover,
+.profileScreen_lnkEmail_link_wrapper > .profileScreen_lnkEmail:active,
+.profileScreen_lnkEmail_link_wrapper > .profileScreen_lnkEmail:visited {
+	text-decoration: underline; font-weight: normal; color: #2489ce; text-align: center; font-family: Helvetica; font-size: 16px;
+}
+/* lblBuilding */
+.profileScreen_lblBuilding {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* imgPicture */
+.profileScreen_imgPicture {
+	margin: 4px 0px 4px 0px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* mobilefooter */
+.profileScreen_mobilefooter {
+	min-height:38px;
+}

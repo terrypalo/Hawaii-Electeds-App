@@ -1,0 +1,170 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.startScreen_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* btnGetLatLng */
+#startScreen_btnGetLatLng {
+
+}
+.ui-btn.startScreen_btnGetLatLng {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilegrid_3 */
+.startScreen_mobilegrid_3 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.startScreen_mobilegrid_3_wrapper {
+
+}
+.startScreen_mobilegrid_3 > tr > td {
+	vertical-align: top;
+}
+.startScreen_mobilegrid_3_row_0, .startScreen_mobilegrid_3_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_4 */
+.startScreen_mobilegridcell_4 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblLatitude */
+.startScreen_lblLatitude {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_5 */
+.startScreen_mobilegridcell_5 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* lblLongitude */
+.startScreen_lblLongitude {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 12px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_11 */
+.startScreen_mobilegrid_11 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.startScreen_mobilegrid_11_wrapper {
+
+}
+.startScreen_mobilegrid_11 > tr > td {
+	vertical-align: top;
+}
+.startScreen_mobilegrid_11_row_0, .startScreen_mobilegrid_11_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_12 */
+.startScreen_mobilegridcell_12 {
+	height:30px !important;
+	width:25%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_12 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtHouseNo */
+.startScreen_txtHouseNo {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_13 */
+.startScreen_mobilegridcell_13 {
+	height:30px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_13 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtStreet */
+.startScreen_txtStreet {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_16 */
+.startScreen_mobilegridcell_16 {
+	height:30px !important;
+	width:25%;
+	padding: 2px 2px 2px 2px;
+}
+.startScreen_mobilegridcell_16 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* txtZip */
+.startScreen_txtZip {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 14px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelist_22 */
+.ui-page .startScreen_mobilelist_22 {
+	margin: 4px 0px 0px 0px;
+}
+/* itmMayor */
+/* mobilelistitembutton_24 */
+.startScreen_mobilelistitembutton_24 {
+
+}
+/* itmCongress */
+/* mobilelistitembutton_26 */
+.startScreen_mobilelistitembutton_26 {
+
+}
+/* itmSenator */
+/* mobilelistitembutton_28 */
+.startScreen_mobilelistitembutton_28 {
+
+}
+/* itmHouseRep */
+/* mobilelistitembutton_30 */
+.startScreen_mobilelistitembutton_30 {
+
+}
+/* btnViewVisited */
+#startScreen_btnViewVisited {
+
+}
+.ui-btn.startScreen_btnViewVisited {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilefooter */
+.startScreen_mobilefooter {
+	min-height:38px;
+}

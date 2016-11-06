@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            startScreen
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="startScreen" id="startScreen"
+        class="type-interior" data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="f" name="mobileheader" id="startScreen_mobileheader" class="startScreen_mobileheader">
+                <h1 dsid="mobileheader">
+                    Hawaii Electeds
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="startScreen_mobilecontainer" name="mobilecontainer"
+            class="startScreen_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="f">
+                <link href="startScreen.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="startScreen.js">
+                </script>
+                <!-- btnGetLatLng --><!--
+                --><a data-role="button" name="btnGetLatLng" dsid="btnGetLatLng" class="startScreen_btnGetLatLng"
+                id="startScreen_btnGetLatLng" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="1">
+                Get Geocoordinates
+                </a><!--
+                --><!-- mobilegrid_3 -->
+                <div class="startScreen_mobilegrid_3_wrapper" data-wrapper-for="mobilegrid_3">
+                    <table id="startScreen_mobilegrid_3" class="startScreen_mobilegrid_3" dsid="mobilegrid_3"
+                    name="mobilegrid_3" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="startScreen_mobilegrid_3_row_0">
+                            <!-- mobilegridcell_4 -->
+                            <td id="startScreen_mobilegridcell_4" name="mobilegridcell_4" class="startScreen_mobilegridcell_4"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblLatitude -->
+                                    <div name="lblLatitude" id="startScreen_lblLatitude" dsid="lblLatitude" data-role="appery_label"
+                                    class="startScreen_lblLatitude">
+                                        Latitude
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_5 -->
+                            <td id="startScreen_mobilegridcell_5" name="mobilegridcell_5" class="startScreen_mobilegridcell_5"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- lblLongitude -->
+                                    <div name="lblLongitude" id="startScreen_lblLongitude" dsid="lblLongitude" data-role="appery_label"
+                                    class="startScreen_lblLongitude">
+                                        Longitude
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilegrid_11 -->
+                <div class="startScreen_mobilegrid_11_wrapper" data-wrapper-for="mobilegrid_11">
+                    <table id="startScreen_mobilegrid_11" class="startScreen_mobilegrid_11" dsid="mobilegrid_11"
+                    name="mobilegrid_11" cellpadding=0 cellspacing=0>
+                        <col style="width:25%;" />
+                        <col style="width:auto;" />
+                        <col style="width:25%;" />
+                        <tr class="startScreen_mobilegrid_11_row_0">
+                            <!-- mobilegridcell_12 -->
+                            <td id="startScreen_mobilegridcell_12" name="mobilegridcell_12" class="startScreen_mobilegridcell_12"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- txtHouseNo -->
+                                    <div name="txtHouseNo" id="startScreen_txtHouseNo" dsid="txtHouseNo" data-role="appery_label"
+                                    class="startScreen_txtHouseNo">
+                                        House #
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_13 -->
+                            <td id="startScreen_mobilegridcell_13" name="mobilegridcell_13" class="startScreen_mobilegridcell_13"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- txtStreet -->
+                                    <div name="txtStreet" id="startScreen_txtStreet" dsid="txtStreet" data-role="appery_label"
+                                    class="startScreen_txtStreet">
+                                        Street
+                                    </div>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_16 -->
+                            <td id="startScreen_mobilegridcell_16" name="mobilegridcell_16" class="startScreen_mobilegridcell_16"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- txtZip -->
+                                    <div name="txtZip" id="startScreen_txtZip" dsid="txtZip" data-role="appery_label"
+                                    class="startScreen_txtZip">
+                                        Island
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- mobilelist_22 -->
+                <ul data-role="listview" id="startScreen_mobilelist_22" class="startScreen_mobilelist_22"
+                name="mobilelist_22" dsid="mobilelist_22" data-inset="true" data-theme="f" data-divider-theme="b"
+                data-count-theme="b" style="" data-split-icon="carat-r">
+                    <!-- itmMayor -->
+                    <li class="startScreen_itmMayor" data-icon="carat-r">
+                        <a id="startScreen_itmMayor" name="itmMayor" dsid="itmMayor" tabindex="7" class="startScreen_itmMayor">
+                        <h3>Mayor</h3>
+                        </a>
+                    </li>
+                    <!-- itmCongress -->
+                    <li class="startScreen_itmCongress" data-icon="carat-r">
+                        <a id="startScreen_itmCongress" name="itmCongress" dsid="itmCongress" tabindex="7"
+                        class="startScreen_itmCongress">
+                        <h3>Congressman</h3>
+                        </a>
+                    </li>
+                    <!-- itmSenator -->
+                    <li class="startScreen_itmSenator" data-icon="carat-r">
+                        <a id="startScreen_itmSenator" name="itmSenator" dsid="itmSenator" tabindex="7"
+                        class="startScreen_itmSenator">
+                        <h3>State Senator</h3>
+                        </a>
+                    </li>
+                    <!-- itmHouseRep -->
+                    <li class="startScreen_itmHouseRep" data-icon="carat-r">
+                        <a id="startScreen_itmHouseRep" name="itmHouseRep" dsid="itmHouseRep" tabindex="7"
+                        class="startScreen_itmHouseRep">
+                        <h3>State House Rep</h3>
+                        </a>
+                    </li>
+                </ul>
+                <!-- btnViewVisited --><!--
+                --><a data-role="button" name="btnViewVisited" dsid="btnViewVisited" class="startScreen_btnViewVisited"
+                id="startScreen_btnViewVisited" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-mini="false" data-theme="f" tabindex="9">
+                View Visited
+                </a>
+            </div>
+        </div>
+    </body>
+
+</html>
