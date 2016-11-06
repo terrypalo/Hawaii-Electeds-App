@@ -43,7 +43,7 @@ var GeolocationService = new Apperyio.GeolocationService({
 });
 
 var RecordVisit = new Apperyio.RestService({
-    'url': 'http://terrylp.ics321.com/apis/record_visit.php',
+    'url': 'PATH/TO/record_visit.php',
     'dataType': 'json',
     'type': 'get',
 
@@ -67,7 +67,7 @@ var GetElectedsService = new Apperyio.RestService({
 });
 
 var ReturnVisits = new Apperyio.RestService({
-    'url': 'http://terrylp.ics321.com/apis/return_visits.php',
+    'url': 'PATH/TO/return_visits.php',
     'dataType': 'json',
     'type': 'get',
 
